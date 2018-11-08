@@ -7,6 +7,7 @@ use PDO;
 class Post {
 
     protected $conn;
+    
     private $email;
     private $title;
     private $message;

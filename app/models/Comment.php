@@ -7,6 +7,7 @@ use PDO;
 class Comment {
 
     protected $conn;
+    
     private $email;
     private $comment;
     private $datecreated;
